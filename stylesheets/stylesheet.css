@@ -432,8 +432,8 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  color: #666;
-  background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
+  color: grey;
+  background-color: honeydew;
 }
 
 p {
@@ -448,7 +448,7 @@ a:hover {
 }
 
 header {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
@@ -462,7 +462,7 @@ header h1 {
   font-size: 72px;
   font-weight: normal;
   line-height: 1;
-  color: #fff;
+  color: darkblue;
   letter-spacing: -1px;
 }
 
@@ -878,4 +878,3 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
-
